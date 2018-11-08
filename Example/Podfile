@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LJYMainViewKit_Example' do
+  pod 'LJYMainViewKit', :path => '../'
+
+  target 'LJYMainViewKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
